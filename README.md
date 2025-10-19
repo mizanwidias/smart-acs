@@ -25,12 +25,9 @@ Ia adalah **jembatan antara TR-069, event stream processing, dan real-time insig
 ---
 
 ## 🏗️ Arsitektur Sistem (Developer View)
-
-
-
                ┌───────────────────────────────┐
-               │         Web Dashboard          │
-               │  (Next.js / React + Tailwind)  │
+               │         Web Dashboard         │
+               │  (Next.js / React + Tailwind) │
                └──────────────┬────────────────┘
                               │
                               ▼
@@ -58,10 +55,6 @@ Ia adalah **jembatan antara TR-069, event stream processing, dan real-time insig
     │   MongoDB    │                     │   InfluxDB (opt) │
     │ CPE Metadata │                     │  Time-Series Data│
     └──────────────┘                     └──────────────────┘
-
-
----
-
 ## ⚙️ Setup & Installation
 
 1️⃣ Clone Repo
